@@ -1,13 +1,10 @@
 {
   "version": 2,
   "builds": [
-    { "src": "index.html", "use": "@vercel/static" },
-    { "src": "privacy.html", "use": "@vercel/static" },
-    { "src": "terms.html", "use": "@vercel/static" },
-    { "src": "public/**", "use": "@vercel/static" }
+    { "src": "public/**/*", "use": "@vercel/static-files" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/$1" }
+    { "src": "/(.*)", "dest": "/public/$1" }
   ],
   "headers": [
     {
