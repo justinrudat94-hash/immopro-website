@@ -1,1 +1,13 @@
-tiktok44ER5iAKAseGGWL8IamKxIwCP8wZpPhq
+{
+  "headers": [
+    {
+      "source": "/tiktok44ER5iAKAseGGWL8IamKxIwCP8wZpPhq.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain"
+        }
+      ]
+    }
+  ]
+}
